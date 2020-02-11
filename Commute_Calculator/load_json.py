@@ -7,3 +7,4 @@ with open('7.json', 'r') as myfile:
 
 # parse file
 obj = json.loads(data)
+# turned the json into a list that i can actually use
