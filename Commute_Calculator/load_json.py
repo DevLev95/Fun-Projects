@@ -1,7 +1,7 @@
-#success
+# success
 import json
 
-#read file
+# read file
 with open('7.json', 'r') as myfile:
     data=myfile.read()
 
@@ -12,3 +12,6 @@ obj = json.loads(data)
 # obj is a list in a dict in a list
 a = obj[0]
 b = a["cities"]
+
+# show values
+print(b[4])
