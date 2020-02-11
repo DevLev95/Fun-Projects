@@ -1,3 +1,6 @@
 #success
 import json
-# read file
+
+#read file
+with open('7.json', 'r') as myfile:
+
