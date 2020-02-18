@@ -26,3 +26,7 @@ for city in cities:
     #"Northridge,+Los+Angeles,+CA/"
 
     city_URL = city+",+Los+Angeles,+CA/"
+    # JESUS CHRIST make sure to include /chromedriver after temporary_paath
+    webdriver = "/Users/levon/Documents/coding/temporary_paath/chromedriver"
+
+    driver = Chrome(webdriver)
