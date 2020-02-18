@@ -35,3 +35,4 @@ for city in cities:
     driver.get(URL)
 
     hovik_commute = driver.find_element_by_class_name("section-directions-trip-numbers").text
+    new = ((city+" commute Hovik",hovik_commute))
