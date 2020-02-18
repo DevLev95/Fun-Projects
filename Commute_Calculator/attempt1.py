@@ -13,3 +13,6 @@ obj = json.loads(data)
 # obj is a list in a dict in a list
 a = obj[0]
 cities = a["cities"]
+
+#panda experiment
+total = []
