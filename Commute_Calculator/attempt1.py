@@ -19,3 +19,8 @@ total = []
 
 for city in cities:
 #for city in itertools.islice(cities,0,2):
+
+    print(city)
+
+    #Avalon + ",+Los+Angeles,+CA/"
+    #"Northridge,+Los+Angeles,+CA/"
