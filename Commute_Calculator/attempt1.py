@@ -24,3 +24,5 @@ for city in cities:
 
     #Avalon + ",+Los+Angeles,+CA/"
     #"Northridge,+Los+Angeles,+CA/"
+
+    city_URL = city+",+Los+Angeles,+CA/"
