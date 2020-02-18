@@ -38,3 +38,4 @@ for city in cities:
     new = ((city+" commute Hovik",hovik_commute))
     total.append(new)
     print("Hovik"+"\n"+hovik_commute+"\n")
+    driver.close()
