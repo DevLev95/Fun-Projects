@@ -32,4 +32,5 @@ for city in cities:
     driver = Chrome(webdriver)
     
     URL = "https://www.google.com/maps/dir/Westaire+Engineering+Inc,+5820+Alameda+St,+Vernon,+CA+90058/"+city_URL
+    driver.get(URL)
     
