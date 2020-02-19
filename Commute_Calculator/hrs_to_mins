@@ -1,3 +1,5 @@
 # converts hours to minutes so sorting is easier
 
 import re
+
+string = "typically 50 min - 1 h 50 min"
