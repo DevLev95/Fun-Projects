@@ -13,3 +13,5 @@ if " h " in string:
         convert_hrs = hrs*60
         total_mins = str(convert_hrs+mins)+" "
         print(total_mins)
+
+new_string = re.sub("(\w\sh\s\w*\s)", total_mins, string)
