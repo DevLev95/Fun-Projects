@@ -11,3 +11,4 @@ if " h " in string:
         hrs = int(split[0])
         mins = int(split[1])
         convert_hrs = hrs*60
+        total_mins = str(convert_hrs+mins)+" "
