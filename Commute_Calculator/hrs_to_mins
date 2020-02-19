@@ -9,3 +9,4 @@ if " h " in string:
     for i in original:
         split = i.split("h")
         hrs = int(split[0])
+        mins = int(split[1])
