@@ -10,3 +10,4 @@ if " h " in string:
         split = i.split("h")
         hrs = int(split[0])
         mins = int(split[1])
+        convert_hrs = hrs*60
