@@ -15,3 +15,4 @@ if " h " in string:
         print(total_mins)
 
 new_string = re.sub("(\w\sh\s\w*\s)", total_mins, string)
+print(new_string)
