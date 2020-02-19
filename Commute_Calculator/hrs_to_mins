@@ -8,3 +8,4 @@ if " h " in string:
     original = re.findall("(\w\sh\s\w*\s)", string)
     for i in original:
         split = i.split("h")
+        hrs = int(split[0])
