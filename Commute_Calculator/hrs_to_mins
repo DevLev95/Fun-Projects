@@ -3,3 +3,5 @@
 import re
 
 string = "typically 50 min - 1 h 50 min"
+
+if " h " in string:
