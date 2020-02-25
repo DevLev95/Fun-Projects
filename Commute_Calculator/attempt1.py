@@ -17,6 +17,7 @@ cities = a["cities"]
 #panda experiment
 total = []
 
+
 for city in cities:
 #for city in itertools.islice(cities,0,2):
 
