@@ -40,4 +40,5 @@ for city in cities:
     total.append(new)
     print("Hovik"+"\n"+hovik_commute+"\n")
     
+    
     driver.close()
